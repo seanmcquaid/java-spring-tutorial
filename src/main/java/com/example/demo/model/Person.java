@@ -6,7 +6,7 @@ public class Person {
     private final String name;
     private final UUID id;
 
-    public Person(String name, UUID id) {
+    public Person(UUID id, String name) {
         this.name = name;
         this.id = id;
     }
