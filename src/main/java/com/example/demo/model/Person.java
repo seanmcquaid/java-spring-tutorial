@@ -6,6 +6,7 @@ import java.util.UUID;
 
 public class Person {
     private final String name;
+
     private final UUID id;
 
     public Person(@JsonProperty("id") UUID id, @JsonProperty("name") String name) {
